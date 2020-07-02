@@ -1,8 +1,11 @@
 const express = require('express');
+const helmet = require('helmet');
+
 const apiRoutes = require('./api');
 
 const app = express();
 
+app.use(helmet());
 app.use('/api', apiRoutes);
 
 app.all('/', (req, res) => {
