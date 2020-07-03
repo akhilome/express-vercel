@@ -1,16 +1,14 @@
 const { Router } = require('express');
-const demo = require('./demo.route');
-const v1 = require('./v1');
+const echo = require('./echo.route');
 
 const r = Router();
 
-r.use('/demo', demo);
-r.use('/v1', v1);
+r.use('/echo', echo);
 
 r.get('/', (req, res) => {
   res.json({
     success: true,
-    message: 'express vercel boiler plate',
+    message: 'v1 path live 🔥',
     data: null
   });
 });
