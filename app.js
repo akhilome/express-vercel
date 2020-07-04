@@ -1,21 +1,18 @@
 const express = require('express');
-const apiRoutes = require('./api');
+const helmet = require('helmet');
+const routes = require('./routes');
 
 const app = express();
 
-app.use('/api', apiRoutes);
+app.use(helmet());
+app.use('/', routes);
 
-app.all('/', (req, res) => {
-  res.json({
-    success: true,
-    message: 'boilerplate demo'
-  });
-});
-
+// default catch all handler
 app.all('*', (req, res) => {
   res.status(404).json({
     success: false,
-    message: 'route not defined'
+    message: 'route not defined',
+    data: null
   });
 });
 
