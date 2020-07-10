@@ -17,6 +17,8 @@
   "author": "Kizito Akhilome <kizito@akhilo.me>",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^26.1.0"
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "supertest": "^4.0.2"
   }
 }
