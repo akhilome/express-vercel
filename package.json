@@ -4,7 +4,8 @@
   "description": "express vercel boilerplate",
   "main": "app.js",
   "scripts": {
-    "start": "now dev"
+    "start": "now dev",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1",
@@ -14,5 +15,10 @@
     "vercel"
   ],
   "author": "Kizito Akhilome <kizito@akhilo.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "supertest": "^4.0.2"
+  }
 }
