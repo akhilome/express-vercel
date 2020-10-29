@@ -26,9 +26,7 @@ Making use of this template is pretty straightforward. Three ways...
 ├── routes/
 │   ├── demo.route.js
 │   ├── index.js
-│   └── v1/
-│       ├── echo.route.js
-│       └── index.js
+│   └── index.js
 ├── services/
 ├── utils/
 ├── vercel.json
@@ -57,11 +55,14 @@ black hole 🙃
 
 * `index.js` – bootstraps all routes. new namespaces should always be registered here
 * `demo.route.js` – sample standalone route
-* `v1/` – sample namespace
-  - `echo.route.js` – sample route under /v1/ namespace
-  - `index.js` – bootstraps all routes for /v1/ namespace
-* `services/` – for "external" services (e.g. a weather.service.js file for interacting with darksky API)
-* `utils/` – ¯\\\_(ツ)\_/¯
+
+#### `services/`
+
+for "external" services (e.g. a weather.service.js file for interacting with darksky API)
+
+#### `utils/`
+
+¯\\\_(ツ)\_/¯
 
 ## Bundled Endpoints
 
@@ -69,9 +70,6 @@ After cloning/forking this template, the following endpoints can be immediately 
 
 * `GET /`
 * `GET /demo`
-* `GET /v1`
-* `GET /v1/echo/:name`
-* `POST /v1/echo/:name`
 
 ---
 
