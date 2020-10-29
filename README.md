@@ -55,8 +55,14 @@ black hole 🙃
 
 * `index.js` – bootstraps all routes. new namespaces should always be registered here
 * `demo.route.js` – sample standalone route
-* `services/` – for "external" services (e.g. a weather.service.js file for interacting with darksky API)
-* `utils/` – ¯\\\_(ツ)\_/¯
+
+#### `services/`
+
+for "external" services (e.g. a weather.service.js file for interacting with darksky API)
+
+#### `utils/`
+
+¯\\\_(ツ)\_/¯
 
 ## Bundled Endpoints
 
