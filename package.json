@@ -4,7 +4,7 @@
   "description": "express vercel boilerplate",
   "main": "app.js",
   "scripts": {
-    "start": "now dev",
+    "start": "vercel dev",
     "test": "jest -i"
   },
   "dependencies": {
