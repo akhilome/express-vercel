@@ -27,7 +27,7 @@ Making use of this template is pretty straightforward. Three ways...
 │   ├── demo.route.js
 │   └── index.js
 ├── services/
-├── utils/
+├── common/
 ├── vercel.json
 └── yarn.lock
 ```
@@ -59,7 +59,7 @@ black hole 🙃
 
 for "external" services (e.g. a weather.service.js file for interacting with darksky API)
 
-#### `utils/`
+#### `common/`
 
 ¯\\\_(ツ)\_/¯
 

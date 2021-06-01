@@ -1,15 +1,15 @@
 {
   "name": "express-vercel",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "express vercel boilerplate",
   "main": "app.js",
   "scripts": {
-    "start": "now dev",
+    "start": "vercel dev",
     "test": "jest -i"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "helmet": "^4.5.0"
+    "helmet": "^4.6.0"
   },
   "keywords": [
     "vercel"
@@ -17,8 +17,8 @@
   "author": "Kizito Akhilome <kizito@akhilo.me>",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^26.0.22",
-    "jest": "^26.6.3",
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.3",
     "supertest": "^6.1.3"
   }
 }
