@@ -1,6 +1,6 @@
 {
   "name": "express-vercel",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "express vercel boilerplate",
   "main": "app.js",
   "author": "Kizito Akhilome <kizito@akhilo.me>",
@@ -10,7 +10,7 @@
     "test": "jest -i"
   },
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "keywords": [
     "vercel",
