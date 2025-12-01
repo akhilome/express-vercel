@@ -17,7 +17,7 @@
     "serverless"
   ],
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.2.0",
     "helmet": "^8.1.0"
   },
   "devDependencies": {
